@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Урок 4</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Задание 1: Счётчик</h2>
+            <div class="count">
+                <div class="counter" id="counter">0</div>
+                <button onclick="increment()">+</button>
+                <button onclick="decrement()">-</button>
+            </div>
+        </section>
+        <section>
+            <h2>Задание 2: Отслеживание </h2>
+            <div class="box" id="box"></div>
+            <div class="coordinates" id="coordinates">X: 0, Y: 0</div>
+        </section>
+
+
+        <section>
+            <h2>Задание 3: Светофор</h2>
+            <div class="svet">
+                <div class="light" id="red"></div>
+                <div class="light" id="yellow"></div>
+                <div class="light" id="green"></div>
+            </div>
+            <button onclick="changeLight()">Выбрать цвет</button>
+            <div id="status"></div>
+        </section>
+    </main>
+</body>
+
+
+<script src="app.js"></script>
+</html>
